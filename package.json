@@ -1,5 +1,5 @@
 {
-  "name": "semantic_release_example",
+  "name": "dimensional_adventurer_semantic_release_example",
   "version": "0.0.0-development",
   "description": "example of how to automate releases and git commits with semantic-release + commitizen",
   "main": "index.js",
