@@ -11,9 +11,9 @@ jobs:
     steps:
       - checkout
       - run: 
-        name: install
-        command: yarn install
+          name: install
+          command: yarn install
       # release!
       - run: 
-        name: release
-        command: yarn semantic-release || true
+          name: release
+          command: yarn semantic-release || true
