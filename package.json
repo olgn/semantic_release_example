@@ -1,17 +1,21 @@
 {
   "name": "semantic_release_example",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "example of how to automate releases and git commits with semantic-release + commitizen",
   "main": "index.js",
   "repository": "https://github.com/olgn/semantic_release_example.git",
   "author": "Teal Hobson-Lowther <tealhobsonlowther@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "cz-conventional-changelog": "2.1.0"
+    "cz-conventional-changelog": "2.1.0",
+    "semantic-release": "^15.13.3"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
   }
 }
